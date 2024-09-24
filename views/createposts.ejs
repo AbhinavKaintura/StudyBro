@@ -1,0 +1,26 @@
+<%- include('partials/header.ejs') %>
+
+    <h1>Create a New Post</h1>
+
+    <form action="/create-post" method="POST" enctype="multipart/form-data">
+        <div>
+            <label for="postText">Post Text:</label>
+            <textarea name="postText" id="postText" required></textarea>
+        </div>
+        <div>
+            <label for="postImage">Post Image:</label>
+            <input type="file" name="postImage" accept="image/*">
+        </div>
+        <div>
+            <label for="postVideo">Post Video:</label>
+            <input type="file" name="postVideo" accept="video/*">
+        </div>
+        <div>
+            <label for="postAudio">Post Audio:</label>
+            <input type="file" name="postAudio" accept="audio/*">
+        </div>
+        <button type="submit">Submit Post</button>
+    </form>
+
+    <a href="/">Go Back to Home</a>
+    <%- include('partials/footer.ejs') %>
