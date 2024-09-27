@@ -17,7 +17,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 // Your Gemini API Key
-const GEMINI_API_KEY = 'AIzaSyAQjKow6GEnxhVKxHHknyBTS2qsIS5z6QM';
+const GEMINI_API_KEY = 'Paste your gemini key here';
 
 // Render the chatbot page
 app.get('/', (req, res) => {
