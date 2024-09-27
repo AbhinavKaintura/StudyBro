@@ -7,7 +7,7 @@ CORS(app)
 
 
 # Configuring the API key for Google's generative AI service
-genai.configure(api_key='AIzaSyCB1M-83EmdroQB9S172KsudlQfxACeOpw') #API
+genai.configure(api_key='Enter the gemini api key') #API
     
 # Initializing the generative model with a specific model name
 model = genai.GenerativeModel( model_name="gemini-1.5-flash")
