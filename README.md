@@ -50,6 +50,44 @@ The platform uniquely allows seniors to provide notes for juniors and offers stu
 4. **Compete**: Participate in contests and gamified learning activities.
 5. **Track**: Use the platform’s progress tracking and goal-setting features to stay focused.
 
+![image](https://github.com/user-attachments/assets/68a9b94f-81e4-42f8-be03-31155d6b2b22)  ![image](https://github.com/user-attachments/assets/05173a36-d6d2-4533-870b-35210e77e12f)   
+![image](https://github.com/user-attachments/assets/729270a3-96d6-497e-82ac-1274b887e050))
+
+
+
+# How to Run the Project
+Follow these steps to clone the repository and run the Stable Diffusion image generation code:
+
+## Prerequisites
+
+Ensure you have the following installed:
+- [Python](https://www.python.org/downloads/) (version 3.7 or higher)
+- [Git](https://git-scm.com/downloads)
+- [CUDA](https://developer.nvidia.com/cuda-downloads) (version compatible with your PyTorch installation) 
+- [NVIDIA GPU Driver](https://www.nvidia.com/Download/index.aspx) (make sure it's compatible with your CUDA version)
+
+## Steps to Start
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/AbhinavKaintura/StudyBro.git
+2. Navigate to the Project Directory: Change into the project directory:
+   ```bash
+   cd StudyBro
+3. Install the required dependencies
+
+You can install the dependencies using npm. Here’s the command to install them:
+
+   ```bash
+   npm install
+```
+4. Run the index file
+   ```bash
+   nodemon index.js
+5. The frontend will load and the website is good to run on [localhost:3000](http://localhost:3000)
+
+
+
 ## Future Plans
 
 We plan to introduce additional features for personalized learning analytics, integrate more machine learning functionalities, and expand gamification elements to keep learning both productive and enjoyable.
