@@ -56,15 +56,7 @@ The platform uniquely allows seniors to provide notes for juniors and offers stu
 
 
 # How to Run the Project
-Follow these steps to clone the repository and run the Stable Diffusion image generation code:
-
-## Prerequisites
-
-Ensure you have the following installed:
-- [Python](https://www.python.org/downloads/) (version 3.7 or higher)
-- [Git](https://git-scm.com/downloads)
-- [CUDA](https://developer.nvidia.com/cuda-downloads) (version compatible with your PyTorch installation) 
-- [NVIDIA GPU Driver](https://www.nvidia.com/Download/index.aspx) (make sure it's compatible with your CUDA version)
+Follow these steps to clone the repository and run the StudyBro:
 
 ## Steps to Start
 
